@@ -19,10 +19,12 @@ train13.txt
 test13.txt
 train37.txt
 test37.txt
+split/test500_13.txt
+split/test500_37.txt
 README.md
 ```
 
-In each `[train|test][13|37].txt`, I put three paths separated by a space like the following:
+In each `[train|test][13|37].txt`, I put three paths separated by a space as follows:
 
 ### train13.txt
 
@@ -40,9 +42,12 @@ image/test/img-000001.jpg depth/test/00000001.png label13/test/img13labels-00000
 image/test/img-005050.jpg depth/test/00005050.png label13/test/img13labels-005050.png
 ```
 
+## Data Split
+
+The main `train[13|37].txt` and `test[13|37].txt` follow the structure of [Ankur's repository](https://github.com/ankurhanda/sunrgbd-meta-data).
+
 
 ## Installation
-
 
 ```
 git clone https://github.com/chrischoy/SUN_RGBD.git
